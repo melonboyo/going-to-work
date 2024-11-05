@@ -1,0 +1,140 @@
+[
+    {
+        "timestart": 3581, 
+        "timend": 18126, 
+        "type": 2, 
+        "beatcount": 8
+    },
+    {
+        "timestart": 18126, 
+        "timend": 29762, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 29762, 
+        "timend": 35581, 
+        "type": 5, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 35581, 
+        "timend": 41399, 
+        "type": 4, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 41399, 
+        "timend": 44308, 
+        "type": 2, 
+        "beatcount": 8
+    },
+    {
+        "timestart": 44308, 
+        "timend": 45762, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 45762, 
+        "timend": 47217, 
+        "type": 2, 
+        "beatcount": 8
+    },
+    {
+        "timestart": 47217, 
+        "timend": 48672, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 48672, 
+        "timend": 51581, 
+        "type": 2, 
+        "beatcount": 8
+    },
+    {
+        "timestart": 51581, 
+        "timend": 53035, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 53035, 
+        "timend": 54490, 
+        "type": 2, 
+        "beatcount": 8
+    },
+    {
+        "timestart": 54490, 
+        "timend": 58853, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 58853, 
+        "timend": 60308, 
+        "type": 6, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 60308, 
+        "timend": 61762, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 61762, 
+        "timend": 63217, 
+        "type": 6, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 63217, 
+        "timend": 64672, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 64672, 
+        "timend": 66126, 
+        "type": 6, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 66126, 
+        "timend": 70490, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 70490, 
+        "timend": 82126, 
+        "type": 0, 
+        "beatcount": 2
+    },
+    {
+        "timestart": 82126, 
+        "timend": 87944, 
+        "type": 4, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 87944, 
+        "timend": 93762, 
+        "type": 5, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 93762, 
+        "timend": 105399, 
+        "type": 1, 
+        "beatcount": 4
+    },
+    {
+        "timestart": 105399, 
+        "timend": 108308, 
+        "type": 0, 
+        "beatcount": 2
+    }
+]

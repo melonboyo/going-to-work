@@ -1,0 +1,92 @@
+﻿FormatVersion: 7
+Name: "RotatingLine 2"
+Script: "RotatingLine"
+Multithreaded: No
+Config:
+  ClockWise:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Clock Wise"
+  InSteps:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "In Steps"
+  SpinSteps:
+    Type: "System.Int32"
+    Value: "16"
+    DisplayName: "Spin Steps"
+  TotalSteps:
+    Type: "System.Int32"
+    Value: "24"
+    DisplayName: "Total Steps"
+  LoopOffset:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Loop Offset"
+  StartTime:
+    Type: "System.Int32"
+    Value: "39944"
+    DisplayName: "Start Time"
+  ObjectStartTime:
+    Type: "System.Int32"
+    Value: "41399"
+    DisplayName: "Object Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "56100"
+    DisplayName: "End Time"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5882353,0.3098039,0.2470588,1"
+  FrameColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.7411765,0.1803922,0.1686275,1"
+    DisplayName: "Frame Color"
+  DesaturatedColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2784314,0.04705882,0.05098039,1"
+    DisplayName: "Desaturated Color"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "4"
+    DisplayName: "Beat Divisor"
+  FadeIn:
+    Type: "System.Int32"
+    Value: "2"
+    DisplayName: "Fade In"
+  FadeOut:
+    Type: "System.Int32"
+    Value: "1"
+    DisplayName: "Fade Out"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/halfline.png"
+    DisplayName: "Sprite Path"
+  StartAngle:
+    Type: "System.Double"
+    Value: "180"
+    DisplayName: "Start Angle"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.4"
+    DisplayName: "Sprite Scale"
+  StartPosition:
+    Type: "OpenTK.Vector2"
+    Value: "320,248"
+    DisplayName: "Start Position"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  dc145d8c15a749cb8acf283bb070f7bf:
+    Name: "LineFrame"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  285c2e20b0a24b48943be1eb1a6ac41b:
+    Name: "Line"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

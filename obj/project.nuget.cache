@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "x3MZvazfUU8=",
+  "success": true,
+  "projectFilePath": "c:\\PortablePrograms\\StorybrewEditor_v1.89\\projects\\GoingToWorkYokesTourney\\scripts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

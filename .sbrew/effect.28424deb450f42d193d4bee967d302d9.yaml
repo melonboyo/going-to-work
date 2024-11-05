@@ -1,0 +1,188 @@
+﻿FormatVersion: 7
+Name: "FakeGameplay"
+Script: "FakeGameplay"
+Multithreaded: No
+Config:
+  ShowSectionHint:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Show Section Hint"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circles/hitcircle.png"
+    DisplayName: "Hitcircle Path"
+    BeginsGroup: "Sprite"
+  HitcircleOverlayPath:
+    Type: "System.String"
+    Value: "sb/circles/hitcircleoverlay.png"
+    DisplayName: "Hitcircle Overlay Path"
+  ArrowsOverlayPath:
+    Type: "System.String"
+    Value: "sb/circles/arrows.png"
+    DisplayName: "Arrows Overlay Path"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/circles/sliderbody.png"
+    DisplayName: "Slider Body"
+  SliderEdge:
+    Type: "System.String"
+    Value: "sb/circles/slideredge-full.png"
+    DisplayName: "Slider Edge"
+  FrameDuration:
+    Type: "System.Double"
+    Value: "100"
+    DisplayName: "Frame Duration"
+    BeginsGroup: "Animation"
+  FrameCount:
+    Type: "System.Int32"
+    Value: "3"
+    DisplayName: "Frame Count"
+  LoopType:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Loop Type"
+    AllowedValues:
+      LoopForever: "0"
+      LoopOnce: "1"
+  StartTime:
+    Type: "System.Int32"
+    Value: "3581"
+    DisplayName: "Start Time"
+    BeginsGroup: "Timing"
+  EndTime:
+    Type: "System.Int32"
+    Value: "137040"
+    DisplayName: "End Time"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "48"
+    DisplayName: "Beat Divisor"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "250"
+    DisplayName: "Fade Time"
+  ARTime:
+    Type: "System.Int32"
+    Value: "600"
+    DisplayName: "AR Time"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.6"
+    DisplayName: "Sprite Scale"
+  HitFadeScale:
+    Type: "System.Double"
+    Value: "1.15"
+    DisplayName: "Hit Fade Scale"
+  InactiveScaleRatio:
+    Type: "System.Double"
+    Value: "0.64"
+    DisplayName: "Inactive Scale Ratio"
+  SliderScale:
+    Type: "System.Double"
+    Value: "1"
+    DisplayName: "Slider Scale"
+  HitCircleGap:
+    Type: "System.Int32"
+    Value: "6"
+    DisplayName: "Hit Circle Gap"
+  ActivateTransitionTime:
+    Type: "System.Int32"
+    Value: "220"
+    DisplayName: "Activate Transition Time"
+  ActivateTimingRatioStart2:
+    Type: "System.Double"
+    Value: "0.68"
+    DisplayName: "Activate Timing Ratio Start 2"
+  ActivateTimingRatioTransition2:
+    Type: "System.Double"
+    Value: "0.5"
+    DisplayName: "Activate Timing Ratio Transition 2"
+  ActivateTimingRatioStart4:
+    Type: "System.Double"
+    Value: "0.45"
+    DisplayName: "Activate Timing Ratio Start 4"
+  ActivateTimingRatioTransition4:
+    Type: "System.Double"
+    Value: "0.32"
+    DisplayName: "Activate Timing Ratio Transition 4"
+  ActivateTimingRatioStart8:
+    Type: "System.Double"
+    Value: "0.35"
+    DisplayName: "Activate Timing Ratio Start 8"
+  ActivateTimingRatioTransition8:
+    Type: "System.Double"
+    Value: "0.3"
+    DisplayName: "Activate Timing Ratio Transition 8"
+  ActivateTimingRatioStart16:
+    Type: "System.Double"
+    Value: "0.1"
+    DisplayName: "Activate Timing Ratio Start 16"
+  ActivateTimingRatioTransition16:
+    Type: "System.Double"
+    Value: "0.07"
+    DisplayName: "Activate Timing Ratio Transition 16"
+  ClockColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.95,0.2192259,0.3069187,1"
+    DisplayName: "Clock Color"
+    BeginsGroup: "Colors"
+  ClockColor2:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.9,0.225,0.225,1"
+    DisplayName: "Clock Color 2"
+  ClockDsColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.565,0.3192249,0.3339714,1"
+    DisplayName: "Clock Ds Color"
+  HoriColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.6767344,0.945,0.2787751,0.8672776"
+    DisplayName: "Hori Color"
+  HoriColor2:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.322,0.92,0.4535597,1"
+    DisplayName: "Hori Color 2"
+  HoriDsColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1792749,0.3549999,0.1866999,1"
+    DisplayName: "Hori Ds Color"
+  VertColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.9803922,0.7754412,0.4264706,1"
+    DisplayName: "Vert Color"
+  VertColor2:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.93,0.658068,0.1302,1"
+    DisplayName: "Vert Color 2"
+  VertDsColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.575,0.4348868,0.3191249,1"
+    DisplayName: "Vert Ds Color"
+  WipeColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1686275,0.8392157,0.9294118,1"
+    DisplayName: "Wipe Color"
+  WipeColor2:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.07862496,0.5187401,0.925,1"
+    DisplayName: "Wipe Color 2"
+  WipeDsColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.3334999,0.5208399,0.58,1"
+    DisplayName: "Wipe Ds Color"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  10705fe1709845c29478a8a2000191d5:
+    Name: "Hint"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: No
+  5b4eb88ed44e4bd98b2f6d9ac2f8cd1d:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

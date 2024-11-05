@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\PortablePrograms\\StorybrewEditor_v1.89\\projects\\GoingToWorkYokesTourney\\scripts.csproj": {}
+  },
+  "projects": {
+    "c:\\PortablePrograms\\StorybrewEditor_v1.89\\projects\\GoingToWorkYokesTourney\\scripts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PortablePrograms\\StorybrewEditor_v1.89\\projects\\GoingToWorkYokesTourney\\scripts.csproj",
+        "projectName": "storyboard",
+        "projectPath": "c:\\PortablePrograms\\StorybrewEditor_v1.89\\projects\\GoingToWorkYokesTourney\\scripts.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "c:\\PortablePrograms\\StorybrewEditor_v1.89\\projects\\GoingToWorkYokesTourney\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

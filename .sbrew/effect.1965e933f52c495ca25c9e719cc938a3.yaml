@@ -1,0 +1,67 @@
+﻿FormatVersion: 7
+Name: "NormalGameplay"
+Script: "NormalGameplay"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "34308"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "35399"
+    DisplayName: "End Time"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+    DisplayName: "Beat Divisor"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+    DisplayName: "Fade Time"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circles/hitcircle.png"
+    DisplayName: "Hitcircle Path"
+  ApproachcirclePath:
+    Type: "System.String"
+    Value: "sb/approachcircle.png"
+    DisplayName: "Approachcircle Path"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/sliderbody.png"
+    DisplayName: "Slider Body"
+  SliderEdge:
+    Type: "System.String"
+    Value: "sb/slideredge.png"
+    DisplayName: "Slider Edge"
+  ARTime:
+    Type: "System.Int32"
+    Value: "800"
+    DisplayName: "AR Time"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.6"
+    DisplayName: "Sprite Scale"
+  SliderScale:
+    Type: "System.Double"
+    Value: "1"
+    DisplayName: "Slider Scale"
+  HitCircleGap:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Hit Circle Gap"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.9960796,0.9132851,1,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  5cd5ccd657c14f04ad0cb31a3f0cb4dd:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

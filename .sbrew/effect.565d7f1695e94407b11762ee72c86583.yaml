@@ -1,0 +1,61 @@
+﻿FormatVersion: 7
+Name: "Grids"
+Script: "Grids"
+Multithreaded: No
+Config:
+  Opacity:
+    Type: "System.Double"
+    Value: "1"
+  WipeUpPosition:
+    Type: "OpenTK.Vector2"
+    Value: "320,56"
+    DisplayName: "Wipe Up Position"
+  WipeDownPosition:
+    Type: "OpenTK.Vector2"
+    Value: "320,440"
+    DisplayName: "Wipe Down Position"
+  MiddlePosition:
+    Type: "OpenTK.Vector2"
+    Value: "320,440"
+    DisplayName: "Middle Position"
+  ClockMiddle:
+    Type: "OpenTK.Vector2"
+    Value: "320,248"
+    DisplayName: "Clock Middle"
+  FadeInTime:
+    Type: "System.Int32"
+    Value: "400"
+    DisplayName: "Fade In Time"
+    BeginsGroup: "Timing"
+  FadeOutTime:
+    Type: "System.Int32"
+    Value: "300"
+    DisplayName: "Fade Out Time"
+  ClockColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.3016526,0.1173848,0.1473902,1"
+    DisplayName: "Clock Color"
+    BeginsGroup: "Color"
+  VertColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.3129649,0.225041,0.1206068,1"
+    DisplayName: "Vert Color"
+  HoriColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2575723,0.3431318,0.1179993,1"
+    DisplayName: "Hori Color"
+  WipeColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2581836,0.3657566,0.3302215,1"
+    DisplayName: "Wipe Color"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  7a24a376477f44cca6d1965d9eb27859:
+    Name: "Grids"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

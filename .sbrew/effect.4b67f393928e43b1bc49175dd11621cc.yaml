@@ -1,0 +1,135 @@
+﻿FormatVersion: 7
+Name: "WipingLine 1 DU"
+Script: "WipingLine"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "26853"
+    DisplayName: "Start Time"
+  ObjectStartTime:
+    Type: "System.Int32"
+    Value: "29762"
+    DisplayName: "Object Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "41399"
+    DisplayName: "End Time"
+  StartPosition:
+    Type: "OpenTK.Vector2"
+    Value: "320,440"
+    DisplayName: "Start Position"
+  UseSecondPosition:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Use Second Position"
+  SecondPosition:
+    Type: "OpenTK.Vector2"
+    Value: "320,56"
+    DisplayName: "Second Position"
+  MoveToSecondPositionTime:
+    Type: "System.Int32"
+    Value: "35581"
+    DisplayName: "Move To Second Position Time"
+  StartAngle:
+    Type: "System.Double"
+    Value: "90"
+    DisplayName: "Start Angle"
+  EndAngle:
+    Type: "System.Double"
+    Value: "-90"
+    DisplayName: "End Angle"
+  SecondStartAngle:
+    Type: "System.Double"
+    Value: "90"
+    DisplayName: "Second Start Angle"
+  SecondEndAngle:
+    Type: "System.Double"
+    Value: "-90"
+    DisplayName: "Second End Angle"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+    DisplayName: "Beat Divisor"
+  FadeIn:
+    Type: "System.Int32"
+    Value: "6"
+    DisplayName: "Fade In"
+  FadeOut:
+    Type: "System.Int32"
+    Value: "1"
+    DisplayName: "Fade Out"
+  Top:
+    Type: "System.Boolean"
+    Value: "False"
+  Left:
+    Type: "System.Boolean"
+    Value: "False"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/line.png"
+    DisplayName: "Sprite Path"
+  GlowPath:
+    Type: "System.String"
+    Value: "sb/line.png"
+    DisplayName: "Glow Path"
+  BeatARTime:
+    Type: "System.Int32"
+    Value: "8"
+    DisplayName: "Beat AR Time"
+  BeatARFlash:
+    Type: "System.Int32"
+    Value: "2"
+    DisplayName: "Beat AR Flash"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.37"
+    DisplayName: "Sprite Scale"
+  SliderScale:
+    Type: "System.Double"
+    Value: "1"
+    DisplayName: "Slider Scale"
+  VectorScale:
+    Type: "System.Double"
+    Value: "1"
+    DisplayName: "Vector Scale"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.3573528,0.580694,0.4614385,1"
+  FrameColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2608778,0.4358561,0.7503815,1"
+    DisplayName: "Frame Color"
+  DesaturatedColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.050676,0.1444287,0.1809858,1"
+    DisplayName: "Desaturated Color"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  50aaee068f2b455284d7c045c37457fe:
+    Name: "LineFrame"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  b2f8cec9dadd46d5882628aae554b21d:
+    Name: "Line"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

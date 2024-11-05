@@ -1,0 +1,106 @@
+﻿FormatVersion: 7
+Name: "MovingLine 4 Vert"
+Script: "MovingLine"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "91944"
+    DisplayName: "Start Time"
+  ObjectStartTime:
+    Type: "System.Int32"
+    Value: "94368"
+    DisplayName: "Object Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "108084"
+    DisplayName: "End Time"
+  StayTime:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Stay Time"
+  FadeIn:
+    Type: "System.Int32"
+    Value: "5"
+    DisplayName: "Fade In"
+  FadeOut:
+    Type: "System.Int32"
+    Value: "1"
+    DisplayName: "Fade Out"
+  Direction:
+    Type: "System.String"
+    Value: "V"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/line.png"
+    DisplayName: "Sprite Path"
+  GlowPath:
+    Type: "System.String"
+    Value: "sb/line.png"
+    DisplayName: "Glow Path"
+  StartPosition:
+    Type: "OpenTK.Vector2"
+    Value: "64,240"
+    DisplayName: "Start Position"
+  EndPosition:
+    Type: "OpenTK.Vector2"
+    Value: "576,240"
+    DisplayName: "End Position"
+  StayPosition:
+    Type: "OpenTK.Vector2"
+    Value: "640,248"
+    DisplayName: "Stay Position"
+  CharacterOffset:
+    Type: "System.Single"
+    Value: "0.07"
+    DisplayName: "Character Offset"
+  CharacterOffsetY:
+    Type: "System.Single"
+    Value: "0"
+    DisplayName: "Character Offset Y"
+  CharacterScale:
+    Type: "System.Double"
+    Value: "0.5"
+    DisplayName: "Character Scale"
+  BeatARTime:
+    Type: "System.Int32"
+    Value: "8"
+    DisplayName: "Beat AR Time"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.38"
+    DisplayName: "Sprite Scale"
+  AngleDegrees:
+    Type: "System.Double"
+    Value: "180"
+    DisplayName: "Angle Degrees"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.6447983,0.4924837,0.269089,1"
+  FrameColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.8392157,0.5294118,0.1607843,1"
+    DisplayName: "Frame Color"
+  DesaturatedColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2392157,0.1843137,0.06666667,1"
+    DisplayName: "Desaturated Color"
+  Bounce:
+    Type: "System.Boolean"
+    Value: "False"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  03f4bad5b91449d5964ee44dc4c0641f:
+    Name: "LineFrame"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  854c323c27024683a96ea31decf23b9f:
+    Name: "Line"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
